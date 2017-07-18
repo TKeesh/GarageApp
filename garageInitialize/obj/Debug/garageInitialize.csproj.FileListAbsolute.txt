@@ -1,0 +1,17 @@
+F:\Programs\OO\GarageApp\garageInitialize\obj\Debug\garageInitialize.csprojResolveAssemblyReference.cache
+F:\Programs\OO\GarageApp\garageInitialize\obj\Debug\garageInitialize.Properties.Resources.resources
+F:\Programs\OO\GarageApp\garageInitialize\obj\Debug\garageInitialize.csproj.GenerateResource.Cache
+F:\Programs\OO\GarageApp\garageInitialize\bin\Debug\garageInitialize.exe
+F:\Programs\OO\GarageApp\garageInitialize\bin\Debug\garageInitialize.pdb
+F:\Programs\OO\GarageApp\garageInitialize\bin\Debug\garageController.dll
+F:\Programs\OO\GarageApp\garageInitialize\bin\Debug\garageWF.dll
+F:\Programs\OO\GarageApp\garageInitialize\bin\Debug\garageModel.dll
+F:\Programs\OO\GarageApp\garageInitialize\bin\Debug\garageController.pdb
+F:\Programs\OO\GarageApp\garageInitialize\bin\Debug\garageWF.pdb
+F:\Programs\OO\GarageApp\garageInitialize\bin\Debug\garageModel.pdb
+F:\Programs\OO\GarageApp\garageInitialize\obj\Debug\garageInitialize.exe
+F:\Programs\OO\GarageApp\garageInitialize\obj\Debug\garageInitialize.pdb
+F:\Programs\OO\GarageApp\garageInitialize\bin\Debug\GarageUtility.dll
+F:\Programs\OO\GarageApp\garageInitialize\bin\Debug\GarageUtility.pdb
+F:\Programs\OO\Kis_Tomislav_Garage\GarageApp\garageInitialize\obj\Debug\garageInitialize.exe
+F:\Programs\OO\Kis_Tomislav_Garage\GarageApp\garageInitialize\obj\Debug\garageInitialize.pdb

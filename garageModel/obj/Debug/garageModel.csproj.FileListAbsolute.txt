@@ -1,0 +1,7 @@
+F:\Programs\OO\GarageApp\garageModel\bin\Debug\garageModel.dll
+F:\Programs\OO\GarageApp\garageModel\bin\Debug\garageModel.pdb
+F:\Programs\OO\GarageApp\garageModel\obj\Debug\garageModel.dll
+F:\Programs\OO\GarageApp\garageModel\obj\Debug\garageModel.pdb
+F:\Programs\OO\GarageApp\garageModel\obj\Debug\garageModel.csprojResolveAssemblyReference.cache
+F:\Programs\OO\GarageApp\garageModel\bin\Debug\GarageUtility.dll
+F:\Programs\OO\GarageApp\garageModel\bin\Debug\GarageUtility.pdb

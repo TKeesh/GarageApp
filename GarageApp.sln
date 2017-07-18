@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "garageController", "garageController\garageController.csproj", "{5F72A263-86A0-4EEC-9FCE-0B9E15ECAB0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "garageModel", "garageModel\garageModel.csproj", "{6A3BAFE6-7CAF-414E-A53D-BA6F7428DF7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "garageWF", "garageWF\garageWF.csproj", "{68835D83-21E5-4755-A235-AE3D38F9601B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "garageTests", "garageTests\garageTests.csproj", "{5407FFEE-CD50-433A-99A2-9A83CEFEF31D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{796DB4CB-478A-410C-9701-39551B6D035C}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "garageInitialize", "garageInitialize\garageInitialize.csproj", "{4B7EF29E-99BF-4A43-8246-A2F012B1F08F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "garageUtility", "garageUtility\garageUtility.csproj", "{E2FAECEA-D114-466C-B55D-1340C3EE135C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F72A263-86A0-4EEC-9FCE-0B9E15ECAB0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F72A263-86A0-4EEC-9FCE-0B9E15ECAB0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F72A263-86A0-4EEC-9FCE-0B9E15ECAB0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F72A263-86A0-4EEC-9FCE-0B9E15ECAB0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A3BAFE6-7CAF-414E-A53D-BA6F7428DF7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A3BAFE6-7CAF-414E-A53D-BA6F7428DF7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A3BAFE6-7CAF-414E-A53D-BA6F7428DF7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A3BAFE6-7CAF-414E-A53D-BA6F7428DF7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68835D83-21E5-4755-A235-AE3D38F9601B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68835D83-21E5-4755-A235-AE3D38F9601B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68835D83-21E5-4755-A235-AE3D38F9601B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68835D83-21E5-4755-A235-AE3D38F9601B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5407FFEE-CD50-433A-99A2-9A83CEFEF31D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5407FFEE-CD50-433A-99A2-9A83CEFEF31D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5407FFEE-CD50-433A-99A2-9A83CEFEF31D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5407FFEE-CD50-433A-99A2-9A83CEFEF31D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B7EF29E-99BF-4A43-8246-A2F012B1F08F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B7EF29E-99BF-4A43-8246-A2F012B1F08F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B7EF29E-99BF-4A43-8246-A2F012B1F08F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B7EF29E-99BF-4A43-8246-A2F012B1F08F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2FAECEA-D114-466C-B55D-1340C3EE135C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2FAECEA-D114-466C-B55D-1340C3EE135C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2FAECEA-D114-466C-B55D-1340C3EE135C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2FAECEA-D114-466C-B55D-1340C3EE135C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,2449 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="677f79f7-26f5-4211-b62e-cc4a7ad3ac81"
+  name="garageUtility"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="e6f9bfcc-ae18-41b0-a61a-bb7ddb09d2a4"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DgarageUtility"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="6ed8b0ea-822d-4720-a6ef-3d9b90b856c4"
+        name="Subject"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="809dc920-2576-4f5f-b85c-6a45fb79fd72"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DSubject"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="208512ae-afb0-45e6-b7de-5b2ddb7ce7ca"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2c3f0e5d-853f-40d7-877a-413d25a3a632">
+                <propertyInstance
+                  Id="30e141a6-13f3-4a6b-8ccb-1d14c1ce7107"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d2ac9dde-169a-4215-a212-d7ee2cdc7fc3">
+                <propertyInstance
+                  Id="786f4af8-6b55-4356-a60e-358a0b8ebf29"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c0330982-33d4-44c8-a3fa-7283aafb6c0a">
+                <propertyInstance
+                  Id="8c857b3f-8cb1-45cb-9a7d-bd1c8d13ce2b"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c1cbc51f-56d9-4fdd-a1a5-7201bbd5476f">
+                <propertyInstance
+                  Id="adb13e1f-7033-435c-a2a3-8ecd3fb9577b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="738f4ccd-b23d-4e07-bdd7-bed3798559fd">
+                <propertyInstance
+                  Id="76daba67-3af1-44e4-ae79-9950afd0fff4"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="cb766154-4602-4399-96f2-012bc06862f7"
+            name="listObservers"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="71ce051d-a79a-4e95-8dbe-f7ce87a0e6c7"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DSubject Member%3DlistObservers"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cead0653-e9ef-4186-a93c-3bb4f87ca1a7"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4a606664-fbc1-433b-944d-09c1b53d51e8">
+                    <propertyInstance
+                      Id="5cb6636a-1cb8-44dc-97df-28a29f0fc2e1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="111afe27-f3b6-4e0c-b917-040c9019f162">
+                    <propertyInstance
+                      Id="8fca19ce-324c-413d-b09a-45cfe1ce0941"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="90b8e08b-4cfb-404b-a985-ec168ed42c6b">
+                    <propertyInstance
+                      Id="c678799d-9c83-4c84-9d14-9136bb1ce6b7"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9fc79864-d843-479b-b511-2ef07712e333">
+                    <propertyInstance
+                      Id="fde36e17-652b-43bd-9d16-4ff7192a0fb2"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="562f60a3-045c-4b1d-a3c9-659713bc0672">
+                    <propertyInstance
+                      Id="99381836-5c76-404e-b8e4-7378e0d21d10"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="b07fbfa1-88bf-4658-bb71-3cba9d0451c0"
+                LastKnownName="List&lt;IObserver‎&gt;"
+                LastKnownLocation="Package3_1052.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="204cf6c7-6e73-4319-9e15-5bc979f6ec1f"
+            name="Attach"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="71aa3bdd-e36b-4a12-aab4-8f86b4d49ac2"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DSubject Member%3D(Name%3DAttach OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIObserver)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="239bb91d-6d4d-41ce-974a-745ced06c6e5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="73ad0337-d336-4ee5-8fdc-4891ba6653ec">
+                    <propertyInstance
+                      Id="3c2eedf6-d260-4ffb-b854-ff3b275689bb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60618889-9238-4329-9130-88f981bab243">
+                    <propertyInstance
+                      Id="77566b64-5475-42c4-94fb-cf4098663f71"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c944a349-2b50-43f2-a020-780112a6e785">
+                    <propertyInstance
+                      Id="6b66467b-1fb1-4fe6-bb3a-a65943fbd2c1"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="369053fe-b3d6-4255-9317-365df1cded18">
+                    <propertyInstance
+                      Id="ee03bade-e3ed-4883-8bdc-d26d9ddd1da1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="40f0df95-84a7-4d0a-853c-0f3858573f20">
+                    <propertyInstance
+                      Id="cc5d49ea-00e0-487f-bd5b-b637245d8e33"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eee156af-3eb2-4202-9511-7cbc89a848a7">
+                    <propertyInstance
+                      Id="2c3265b7-f189-4795-9306-37c4d45969a7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ef7dba71-cdcf-44a1-aada-82462d8950e0"
+                  name="inObserver"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="407ec43c-e9c7-4ba1-b6e1-8366340597f7"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DSubject Member%3D(Name%3DAttach OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIObserver)]) ParameterIdentifier%3DinObserver"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="b2795951-8d46-4cb4-8807-6f1627ef30c8"
+                      LastKnownName="IObserver"
+                      LastKnownLocation="Package4_1052.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="1fae12ad-9307-432d-ba67-f1441e1bd346"
+            name="Detach"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="101158cd-95b4-4c50-b273-ecb3d0ddddbb"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DSubject Member%3D(Name%3DDetach OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIObserver)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9d2f519d-ad2b-4a4c-834f-bd48a71cc6fc"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5744070a-03b7-4e65-8149-592c6eb2cb9b">
+                    <propertyInstance
+                      Id="f7e2d0be-fe5e-4f74-bfc8-da6f99f4ad61"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9a573faa-ceac-4ed8-854c-d3e77f4c8335">
+                    <propertyInstance
+                      Id="ca21310b-7084-4296-bab1-062e5f7d37f3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="702b917a-b3d3-47ec-9ea4-0341fee95b41">
+                    <propertyInstance
+                      Id="f5e866f4-ae06-4d89-b1f5-8f208d598514"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed840ea8-a87c-419d-aceb-9e0bb531a5ba">
+                    <propertyInstance
+                      Id="a6fb2abb-448d-428f-b6ca-2175bbeffa6a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b58931a1-29ae-4af9-a0e7-cebd0aafc8d4">
+                    <propertyInstance
+                      Id="fd1febf3-e95c-4967-b9a8-99c2e45117d7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b7ebe8ab-e5ce-4c71-bd19-229deb09f8f8">
+                    <propertyInstance
+                      Id="af6a1a89-55f3-4f1d-8902-43b48d8ab273"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c8687795-496a-4a78-922c-eef89ae65002"
+                  name="inObserver"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b149709c-757e-4a7f-860d-afb1057cc490"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DSubject Member%3D(Name%3DDetach OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIObserver)]) ParameterIdentifier%3DinObserver"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="b2795951-8d46-4cb4-8807-6f1627ef30c8"
+                      LastKnownName="IObserver"
+                      LastKnownLocation="Package4_1052.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="52424111-ed33-4756-bdaa-dda646775e4d"
+            name="NotifyObservers"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="503ba700-8831-4598-8ff7-ba395f3cee8c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DSubject Member%3DNotifyObservers"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2b85abbc-97e7-4f75-a265-b0394905b3c1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="32c3e0e6-ae26-4f30-83bb-f451f2726f44">
+                    <propertyInstance
+                      Id="12a8ee92-95ef-4c0d-abdd-bf0aa5999d7e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf26f949-681e-441e-9475-770d97bab9d7">
+                    <propertyInstance
+                      Id="9a319c7b-9670-483c-80cf-1b5abf863f9e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="61a04ccf-3f3c-4d0a-95f9-3edf9f2fa7d6">
+                    <propertyInstance
+                      Id="b13d2ebb-2ed9-4273-8f65-c738e737d376"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aef80238-3a20-48b4-b492-c2cb26c0c56e">
+                    <propertyInstance
+                      Id="dcaf55cf-fb5c-4783-a98f-830140efa703"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="65d6cfa9-7754-4120-8725-a90e9e2b47d0">
+                    <propertyInstance
+                      Id="da9d84dd-b01f-4808-a035-494d8d9d92e4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="947acaa0-409b-438b-a7e8-085c845b1c3d">
+                    <propertyInstance
+                      Id="ec7fa8c5-5992-437a-8766-73dd5a47ad39"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="1634e50f-15c1-4a59-921c-2a6c659523bb"
+            name="Subject"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b3e6dc51-6cde-465d-8681-99dc2b2cf17c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DSubject Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="bfd118d1-ba52-4345-8bca-40bc94d55a8a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b70af4c1-b8ec-42f1-9851-af920cf3def8">
+                    <propertyInstance
+                      Id="cd760c36-ef0a-4c59-831f-9782e780d58f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3d0f535-7eb1-46a6-8144-e4ab28c2fa94">
+                    <propertyInstance
+                      Id="da43a754-2d83-40f7-be3a-910062db27aa"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="079a6b70-5fa6-4ea7-b968-8221762290a7">
+                    <propertyInstance
+                      Id="1bdb8c3e-4597-4696-8aad-9555fa77316c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ae6cabe1-052b-469e-8534-92ffa041709c">
+                    <propertyInstance
+                      Id="65edcccd-7ded-45a3-8e87-fa2fefe9954c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b5c3d15e-1ee3-4580-b541-40bb55396f26">
+                    <propertyInstance
+                      Id="50d8dc38-44a5-4791-b46e-e8a2842fb7b4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="03c0df60-0f23-4984-a945-5a0815a87863">
+                    <propertyInstance
+                      Id="2bb7248c-11f3-4c5e-924c-5720c884517f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="fa21263a-a517-42e0-bcc2-48341d37d677"
+        name="IController"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="211505c3-515a-40c9-af59-69eec184273d"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIController"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="e66e3c23-032d-4d24-88a5-ccb007a8a7e6"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5eaca4b4-1be5-4b28-af54-6d08fc226c73">
+                <propertyInstance
+                  Id="31072b22-fde7-461e-a234-31629733b28d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="de182854-7e58-4fc3-b896-d0673e871721">
+                <propertyInstance
+                  Id="acf6172f-c4f6-41ca-b77a-93ed14b94aa6"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bbc17ad7-4851-4347-a4ab-06fd10223c5e">
+                <propertyInstance
+                  Id="69be7913-8ce9-4a1c-bfa6-f6950e675277"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="977f2f05-af87-4d19-a70f-27f20a960435">
+                <propertyInstance
+                  Id="3e26b12f-10a9-4e58-8198-60c294563431"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="ddbe4014-9255-41d0-a15c-585aff980cdc"
+            name="AddGarage"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="362f8874-fed4-450f-9f4a-70282c5c89fc"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIController Member%3DAddGarage"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="bbb4ca04-7b10-43fe-b26e-f2779649a1ff"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1fc6f917-2667-4d66-a159-00eee4b7fe4e">
+                    <propertyInstance
+                      Id="a816e20a-3839-4e20-ad64-9d5843dc2058"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f3d1c516-eafd-4419-acd2-b7bfd620b890">
+                    <propertyInstance
+                      Id="f751ecbf-0af1-43d0-98f9-da13d4772faf"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="28fcc040-9d63-4922-b0ac-3b7486da579c">
+                    <propertyInstance
+                      Id="f53399e5-52f4-4e38-8aad-31b0a9d4e423"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="921a253d-3d5d-46ca-85ab-93437d73652e">
+                    <propertyInstance
+                      Id="6d3071ac-1dfd-4743-88c1-e0c097dc315d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cd0e7509-bcb2-47ac-95c2-f845fb6bbdc9">
+                    <propertyInstance
+                      Id="8a4f33fc-d5c1-4d33-9a1a-605cfe562c52"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f7b697e-5465-4d38-a570-dd059cd12fd8">
+                    <propertyInstance
+                      Id="9b4d476d-c2cd-404c-a775-2bd0c8a4818f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="52a44ae4-46ff-43fa-b180-d557fabf23db"
+            name="AddGarage"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6f158a98-3c85-4fc3-a4ec-8a35592843e1"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIController Member%3D(Name%3DAddGarage OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c81ac4a5-d37f-4783-9c6f-ba600afbae90"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a253111-0e8c-45f7-954c-64c8d9560be8">
+                    <propertyInstance
+                      Id="2567b545-ca03-442a-9ae5-b34c9be110ed"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a05a6af7-ab1f-43e3-bf21-d481561e8e1d">
+                    <propertyInstance
+                      Id="88ac75b5-49bf-4feb-a9f9-ecb44a3d42e4"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4257c49a-c497-48ab-a793-df2684dd4b1b">
+                    <propertyInstance
+                      Id="c1a3ecc5-4fb8-4658-b242-a8828ebebc43"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="450f6269-b7f9-4164-b1ed-5e6d0382f1f1">
+                    <propertyInstance
+                      Id="b30f597c-5789-4cc3-b11a-3f55551954e8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d8129467-05c0-4ab7-8600-6749ff9ae666">
+                    <propertyInstance
+                      Id="c98f82df-5473-43cc-8907-2ee38118daff"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5e5e8376-7005-4933-8798-4d6695a46401">
+                    <propertyInstance
+                      Id="359e3b36-b978-4cb4-a66c-72263937414e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="afbd7a19-3022-421a-bd47-aa9485685e56"
+                  name="user"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="30fef70c-e7b3-434d-a58a-097630c2b1bc"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIController Member%3D(Name%3DAddGarage OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)]))]) ParameterIdentifier%3Duser"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectGarageModel.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1f8b546a-2479-4aee-9544-e992ea353ef6"
+                  name="address"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ed0e0315-6b04-4b07-b23b-2a7b51886c2f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIController Member%3D(Name%3DAddGarage OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)]))]) ParameterIdentifier%3Daddress"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectGarageModel.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="69ed4a76-4b15-4d88-941e-d51ffd5bcc2f"
+                  name="type"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="6ff5fcfc-afbd-4af6-af96-4800f1bd1d97"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIController Member%3D(Name%3DAddGarage OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)]))]) ParameterIdentifier%3Dtype"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectGarageModel.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d6bcbfde-e605-404f-bf71-77b3f9abf7eb"
+                  name="name"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="007a97ed-a63c-48fe-a5a6-ba7cc02aa322"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIController Member%3D(Name%3DAddGarage OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)]))]) ParameterIdentifier%3Dname"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectGarageModel.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c69c0f12-8ed2-4215-98ad-5c8247ff870c"
+                  name="values"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="2b30d2f6-f4b6-42e8-95cb-1dbd404d8998"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIController Member%3D(Name%3DAddGarage OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)]))]) ParameterIdentifier%3Dvalues"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="8ef6e985-7dfc-4a0f-b186-240e87435050"
+                      LastKnownName="List&lt;Int32‎&gt;"
+                      LastKnownLocation="Package3_1052.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="9a4eff3b-2594-426c-99e7-e2944f5b3228"
+            name="SignUp"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c83d21b3-da06-462c-ad01-6c4f1775516e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIController Member%3DSignUp"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="014fb885-2e64-415a-8754-556b075a322a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="be645ea4-5cec-4923-a354-5197135ffc1c">
+                    <propertyInstance
+                      Id="85d37354-200e-4ce3-a0b2-8d97ce4ac6b7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2ec02882-a629-4915-8eb1-d133e4a6d9ee">
+                    <propertyInstance
+                      Id="dc4bd954-371a-4345-9e6a-3bf3f0c3f1fe"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="13ddca15-c81a-4583-bedb-501af103f8cc">
+                    <propertyInstance
+                      Id="6acb8acb-0a7d-4247-afdf-b503a3f20ca0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="18f4c842-95fb-4245-bdcc-27f50374c993">
+                    <propertyInstance
+                      Id="53ae2848-661f-4f60-818c-f3bb692da3e4"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="139ecbdb-f954-409c-a010-d055f6fecae3">
+                    <propertyInstance
+                      Id="6fa24675-3749-404a-957e-5c5f2e2c1c94"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f4ce5ca0-4f84-412b-b1f7-518df02a4a8d">
+                    <propertyInstance
+                      Id="0891c966-6b3f-4718-91e3-5594e5a3fbbc"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="5d95610a-89d2-44e1-aedf-db7068311fee"
+            name="AddUser"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="62fcf70a-9311-4ecb-9e89-78e5eaaccb26"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIController Member%3D(Name%3DAddUser OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6975bd6e-c323-429c-8366-06e04cd0ad8c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="24b3414b-5998-418b-a25e-c20b7136a5ee">
+                    <propertyInstance
+                      Id="a5f22f66-7729-4365-82ea-3d52fdd8b4c3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="edc3fce4-e1c0-413f-9b31-742ec3d5e0d3">
+                    <propertyInstance
+                      Id="60ff1c96-ba47-494a-978b-7f2904857ba4"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e9eb6f6a-e771-49fd-890b-a4a7dd25e54e">
+                    <propertyInstance
+                      Id="293e8053-1f39-4ffb-bb69-a503e6c710f3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3298ccf5-7f33-4c57-a7a1-8f92c683c9e3">
+                    <propertyInstance
+                      Id="2818921f-8a40-448c-a82d-55f06c8a67da"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3280a671-9326-42b4-b39d-c356a8c9f8c8">
+                    <propertyInstance
+                      Id="6bf77765-63e4-49ca-bd92-585685dbeb40"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2fcd05c2-2a1a-4b49-8edc-2dbd346be6bc">
+                    <propertyInstance
+                      Id="ed30e5b4-bcfc-467c-a435-d191ac5f3927"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="21ad69a4-d44b-49fd-9745-27397b438731"
+                  name="inName"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="85f97e59-641e-410b-8c53-bb8356bf129c"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIController Member%3D(Name%3DAddUser OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DinName"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectGarageModel.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="cd182b5c-7f41-4e2b-aca7-a8996eb5b16c"
+                  name="inPassword"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b1756f05-fbf4-4be2-9daa-58a0ed1c3884"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIController Member%3D(Name%3DAddUser OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DinPassword"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectGarageModel.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="0a863eac-b142-427f-880f-afb43d8cb0e2"
+            name="LogIn"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1cdf5639-ae6d-4bbc-baa8-670361d5ab15"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIController Member%3DLogIn"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3660bd03-2e4f-4a2a-aad4-7ad2635a4f7b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="95f33d8b-f215-48bf-b7a0-dea31fdf87d4">
+                    <propertyInstance
+                      Id="449604c6-9928-4fd1-bb30-0ed3d72b8ab0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3a5c5fc-3ef3-479d-9289-c0bcb137e94d">
+                    <propertyInstance
+                      Id="21115597-49fb-4525-a10b-ac30daea2454"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce29cf56-82b4-42a4-81f7-7b1bf2b62c8d">
+                    <propertyInstance
+                      Id="8e7bf657-264c-4c16-bd29-6262855282be"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="76c81930-7faa-4d55-9b36-c2086d64ea60">
+                    <propertyInstance
+                      Id="7fc2f626-ac25-4bfe-ba0d-39ddb5043ced"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="52475948-2167-4702-94b1-0021f6237d6e">
+                    <propertyInstance
+                      Id="888f92de-a9b1-46b6-9d8b-495f3fc2a426"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="01ffd848-d5fd-437d-8b08-fe9d0babab65">
+                    <propertyInstance
+                      Id="019ee88f-00bd-4f57-9fce-05844e162877"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="20206bef-a07f-4775-acac-69dc1fcb69a1"
+            name="GetUser"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9ad96d55-7384-4979-aeba-6ea4ee00f1a1"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIController Member%3D(Name%3DGetUser OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="377089cb-6424-4823-9c11-298c0be50534"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="af0202f1-6f6c-4cf8-af21-083217fed847">
+                    <propertyInstance
+                      Id="943f3f70-e827-4a71-aeb1-bce71d5e3ee7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="94185fcf-d70e-48d4-b960-00334e670f29">
+                    <propertyInstance
+                      Id="c3058bf4-94ce-458a-a5c5-580d852a1d84"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="42a47b9b-a151-48fd-82e2-36f621748d9d">
+                    <propertyInstance
+                      Id="a370a39b-d85c-407f-99d7-7545d9071a9b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="440b09f9-e898-451d-a967-54e6e0c1bc54">
+                    <propertyInstance
+                      Id="f968b307-341c-472e-8131-47411d423ba6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="56195f8c-c911-4b90-bd82-ca024f1d895e">
+                    <propertyInstance
+                      Id="a843104f-4680-4bcc-bf40-f70f09b822cd"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="69a5d6f5-9597-4344-a720-45a4d982f672">
+                    <propertyInstance
+                      Id="84f17013-4a4e-4368-bfbd-2db7adf1017f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="83dbfa9a-2102-445e-939b-35e6075d13a1"
+                  name="inName"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="bb74fcfe-4261-4331-a1f4-d8531e5f97f9"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIController Member%3D(Name%3DGetUser OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DinName"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectGarageModel.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6f4f9ece-ef9e-4d77-a932-36bec2c9fc8f"
+                  name="inPassword"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="a460335f-6e81-4faa-98ca-7ec1df4dffdb"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIController Member%3D(Name%3DGetUser OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DinPassword"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectGarageModel.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="3219e904-db60-4d08-8da8-3a2320387824"
+            name="LogOut"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="2638c227-583b-470f-b9f3-30ac67332d2e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIController Member%3DLogOut"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8c3e981e-31f8-41e0-92a9-53d9eafe272a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6a04df87-739c-4677-aad4-525209ea06f4">
+                    <propertyInstance
+                      Id="c1a384a0-27f3-4706-9590-e61717c1b9d5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0a6912f7-3614-4fe5-967c-81a8919cdbb9">
+                    <propertyInstance
+                      Id="36a15ec9-2b8f-4a1c-9e17-74d24068d710"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bc105d0f-b0fc-46b6-87d4-0017a001511a">
+                    <propertyInstance
+                      Id="4d73fcb1-fc6b-4cb3-a8f9-776abe7f4240"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db49beac-729a-47f7-9a43-08a5899a4d13">
+                    <propertyInstance
+                      Id="6fc00eae-67d3-4ae5-9b3e-d9925854b673"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="02f45e09-782d-44d5-9553-ee764fcfe15b">
+                    <propertyInstance
+                      Id="68cf78cf-4419-4a43-99d9-197afca8f27a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c3b80269-6cd6-431f-85dc-84960ed9807b">
+                    <propertyInstance
+                      Id="24b507b7-2cf4-4973-b1fe-a04bb519ec6c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="e35a2e53-681c-46e9-b30d-20cdf476980b"
+            name="ChangeUsername"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="322bad9a-50fe-4ef2-8af3-e550d96cfcce"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIController Member%3DChangeUsername"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="dc510129-6002-4855-96df-017f27b4d811"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2799785b-ad85-42ba-969a-5b5d5a8e0a45">
+                    <propertyInstance
+                      Id="3a965e65-db9a-43a5-b7e1-7822829be98f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="55e2787d-3b75-4d02-b0ad-4f26e31038db">
+                    <propertyInstance
+                      Id="39425e82-b703-4d39-ba42-78871105b001"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="23e9f09b-fb92-4d8f-8cec-071b89ec93f3">
+                    <propertyInstance
+                      Id="24b79314-dbcc-4cc8-89d5-b8ae8f198c8a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="59a72e85-8753-4dbb-9aba-fdcee81e8e89">
+                    <propertyInstance
+                      Id="f7a1dfd7-7b8b-4bdd-9708-b5ff92b82501"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="610a4a51-06a3-4998-ae4a-553051cf0585">
+                    <propertyInstance
+                      Id="7b8adffa-5ee5-41e9-82f4-d050e487e05c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f229a376-b743-4c7f-81bc-a26cb2797452">
+                    <propertyInstance
+                      Id="5039f50b-aed4-4c62-82f6-c2872a6826f5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="f0e47b4b-e89a-42fb-aef9-4ed7bf9867cb"
+            name="ChangeUsername"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="59d6d9c1-8d9d-4188-a2a4-d550ba2c7f16"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIController Member%3D(Name%3DChangeUsername OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c8f7e92d-2ef7-48db-8b41-5b5cb210e265"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cecc7905-6a23-4ae9-a829-d12336e40428">
+                    <propertyInstance
+                      Id="957e6263-449f-4c28-9ab9-874ab6a3aaaf"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7b3a5644-ef4c-41b3-943f-5ca89bc86a32">
+                    <propertyInstance
+                      Id="8afc0bb2-c450-419a-9458-20e650e06258"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ca1b19cb-ffdd-44ef-a1c1-8fa25be58476">
+                    <propertyInstance
+                      Id="6e711678-f9df-4e92-aadf-cf9af4ed1b86"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8065cf0c-caf2-4702-973e-6704650b1faa">
+                    <propertyInstance
+                      Id="692777c6-a7f0-4856-a683-29c3e242f1d7"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d28d61f3-144f-4819-ad9a-7923222f87a1">
+                    <propertyInstance
+                      Id="b2fb6364-6447-465c-8718-8f61e0ee80dc"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb9aed2e-6749-4d90-bc62-daede5539db0">
+                    <propertyInstance
+                      Id="f3fe1e32-a9a9-4fd8-beeb-4dd2da548ed8"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f06300e4-7f4b-43d3-b87e-13ccde9f0648"
+                  name="inUsername"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c6c09011-7579-4031-9f69-b7e1d2abc420"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIController Member%3D(Name%3DChangeUsername OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DinUsername"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectGarageModel.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="79c75b5e-f75a-4e01-824e-8ac973ac4851"
+            name="DeleteUser"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3f4565cc-2b65-4fdd-b5f7-6dfda54a77eb"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIController Member%3DDeleteUser"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f8f1a634-57c2-4e7a-8bdd-254b1d17abd5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="93ef8a23-7130-4aa1-a370-ec33b82dfc15">
+                    <propertyInstance
+                      Id="e1da7e31-4302-473f-8e85-a6850d56a39e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="84d79a74-c552-4d85-b262-67e3364f0df6">
+                    <propertyInstance
+                      Id="3baacd16-4194-401e-a0d2-7768fa27f102"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7cf294fb-333e-4e39-8eb8-41f878fa2db8">
+                    <propertyInstance
+                      Id="9106a7a6-35fb-4d34-a3a8-272ff3256e4e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="87bafc0a-cf07-4ffd-984d-b481dd1d5e59">
+                    <propertyInstance
+                      Id="477eb77c-a8b6-4a04-85a5-091cccfceec1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b93af266-99bf-4a9a-bf0e-e02a4369d172">
+                    <propertyInstance
+                      Id="510050ea-3d09-4e25-b605-9149a338fbc1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a18a9268-3531-4232-a005-c33ae5792a03">
+                    <propertyInstance
+                      Id="7960496b-01a1-4843-9b0c-a00b56c976e4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="768dff52-4e37-41ac-a9c4-fa5e24d4ca3a"
+            name="ChangePassword"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="82f5004b-85b1-4547-bb35-1ece99c8df0e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIController Member%3DChangePassword"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c3966c1b-04bc-41c4-be3d-4f97335b74a4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="845c5878-a9a3-4310-961f-e158a6e43d0b">
+                    <propertyInstance
+                      Id="6fcb7518-a140-4001-8394-3ff4a2b3958f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5d9f2af4-18f1-40b5-9b54-86174c7dc87c">
+                    <propertyInstance
+                      Id="f8fce55d-f13b-40de-a34c-1e27b45723bc"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3c783e69-875e-4f5d-87cf-b5d7467ac347">
+                    <propertyInstance
+                      Id="6dfd23f3-88e5-4498-b2f1-0bc5e651516d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="18637dbf-a7d0-40de-a6a5-bdcec52ddfcd">
+                    <propertyInstance
+                      Id="e76e1568-527e-4e0e-b046-e02a9d14806b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2cd91ad9-6a00-4bbb-822e-67fdef904acd">
+                    <propertyInstance
+                      Id="979ef038-6579-4292-b81b-1fba26f8d6e0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="14545a05-f52f-4483-857e-a6c37892cdf0">
+                    <propertyInstance
+                      Id="5ddcf3b8-3a27-4dae-aae3-157a8c7ebfe4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="cf453afc-8480-4bac-a342-d5b991f18173"
+            name="ChangePassword"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="21549ed4-a344-4f53-8b9d-f1e53b78e844"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIController Member%3D(Name%3DChangePassword OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fcb0b2c0-07c6-43d3-978d-f1bd0da44fa6"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a0093203-0da1-4ace-811e-824b259609ca">
+                    <propertyInstance
+                      Id="70cb15b6-91a1-4c18-a796-da12bd904de2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b7a5e7db-b457-4ed3-9766-c5757389a2dc">
+                    <propertyInstance
+                      Id="692048d9-93d0-4a95-a479-b21ecb0034da"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c4121679-37d8-4d33-8881-c1bd4b210e32">
+                    <propertyInstance
+                      Id="a2e959d7-f0be-450b-a67f-e4fa3f223668"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="549b321d-1af9-4cb8-96ad-c35dfd391b8f">
+                    <propertyInstance
+                      Id="eb2cd8e6-0e65-4a49-b36c-c1851d174d21"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a8b34a4e-485c-429d-8681-e5b138d4067f">
+                    <propertyInstance
+                      Id="6e69afc6-2e11-4da7-afb3-15a7863e2003"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="36190d22-a252-41cd-8427-b077189b4237">
+                    <propertyInstance
+                      Id="9b1d1dfd-828e-4d47-8375-7ce3a868e191"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f89cdd18-a41e-4a21-b677-3b6c27eecdb5"
+                  name="inPassword"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f2255d9b-97d5-4301-ae7f-434b0ba5d2eb"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIController Member%3D(Name%3DChangePassword OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DinPassword"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectGarageModel.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="4dc78704-2a39-491f-a711-b82e6b88d84b"
+            name="DeleteGarage"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="01f31986-9d28-4aa7-8726-98ea558090d8"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIController Member%3D(Name%3DDeleteGarage OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7f258d5b-6878-489d-98bd-cfa1a5a850b5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ff71b543-e840-4ff5-bb21-353bcebcc5f4">
+                    <propertyInstance
+                      Id="b9d32d2a-45cd-444e-a5cf-9d3c2bb382b6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aed5c80d-3fc9-4ea2-8f66-5f5c87be0ffc">
+                    <propertyInstance
+                      Id="d778dc9c-bef4-4113-95a7-d53f5f79b34a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="47069e9f-e461-4bd9-8e45-1b42f43d4669">
+                    <propertyInstance
+                      Id="5ffd370d-170e-44e8-9277-4899fe4989ad"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4aa661e4-e435-4cc6-8ac1-21bad69329c9">
+                    <propertyInstance
+                      Id="35425f37-f678-4cea-92a8-a59b0e2e7e9b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d39db91b-184e-47c4-af61-fe60a9977655">
+                    <propertyInstance
+                      Id="f203f7db-dde5-40ca-8bf9-69b74d57e8c7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d693564d-26ac-4b3e-b1bc-a303255fec09">
+                    <propertyInstance
+                      Id="4f54801f-cec8-4b7d-b3c8-83795e49eb5c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="80d55458-19d8-4c3e-b0ec-28283c45fc98"
+                  name="inIndex"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="941a6f3b-a0b0-4b55-b48b-d5275a5aa018"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIController Member%3D(Name%3DDeleteGarage OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DinIndex"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProjectGarageModel.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="5d3f48fc-a839-4394-8857-818395c39580"
+            name="OpenGarage"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="bfc186c6-a4aa-4486-a983-1adc21d110d7"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIController Member%3D(Name%3DOpenGarage OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="87e141f2-7e1a-4168-8749-76a99f4b9280"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3aa2eb8a-1caa-4a67-91f7-6db7be56e285">
+                    <propertyInstance
+                      Id="2aac1b19-b481-4185-ad34-4b14b6de5999"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8f385523-856f-4060-bf64-3343e30bd61f">
+                    <propertyInstance
+                      Id="65ce593c-dab1-4336-8eef-23aee06c599c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1c156ad4-3c91-4747-ac04-124e20389589">
+                    <propertyInstance
+                      Id="319271f4-d85d-408c-a319-7789da9c3bc0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cdea42ab-3199-4aec-9054-cc1f63286fdd">
+                    <propertyInstance
+                      Id="2dab24e0-714d-444b-b0b9-ec6c1e68d522"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a7423f02-f36e-464f-8fe0-e9ef5cd329d5">
+                    <propertyInstance
+                      Id="d3b0577a-950d-4998-97a8-9ab39566b73d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="160596e5-356a-4240-9e3b-a567305337d8">
+                    <propertyInstance
+                      Id="a1dd0ce7-d2d0-4dbc-85c3-fb6b83f044db"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9f6e0f4a-1200-4543-9144-2697d63ddbcb"
+                  name="inIndex"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="10d068b1-93da-4eda-84a2-c56e4e83079f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIController Member%3D(Name%3DOpenGarage OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DinIndex"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProjectGarageModel.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="356f2912-5411-40d9-b529-5d415e355b8d"
+        name="IControllerGarageOpen"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="a6446970-8e1a-442a-ba10-30cfa55d54da"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIControllerGarageOpen"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="7f6c60da-31e9-48be-896b-180f5c0f2498"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="59668d19-72d7-401e-af2b-2af21a62dfbc">
+                <propertyInstance
+                  Id="c49838b9-2df3-4b3f-bb8a-5a9a96d33c7a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e7534f7f-7043-44f9-9fce-b2e69fd4ec99">
+                <propertyInstance
+                  Id="4b471927-1886-4120-b327-37ed4a8b7ab3"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="173abdce-d66d-4af7-820c-028af42d6b89">
+                <propertyInstance
+                  Id="93358dd4-0481-4c17-922f-00ce30784221"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b084ecec-429c-48af-b621-e13c4a9a0b45">
+                <propertyInstance
+                  Id="ca0b1076-7a10-465e-97c0-755237b2be78"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="0a08e405-ec62-4c13-8d2b-8244bd9ff2ae"
+            name="SetOpen"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="751ca929-e261-4e90-806d-28f051c9f766"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIControllerGarageOpen Member%3D(Name%3DSetOpen OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DBoolean)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7e792364-f98b-41e3-9630-674156511914"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5bfbdd72-12f7-4e68-ada3-75c9c5c67386">
+                    <propertyInstance
+                      Id="29ad76c0-4c13-41af-9733-75f6816f8ee4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0b557de1-6ea4-46b8-87e0-c6bce127d0f7">
+                    <propertyInstance
+                      Id="a8eaf734-3cca-4031-9318-1155b3045dcb"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3797cf9d-ecbe-478d-9dad-7b263de018b0">
+                    <propertyInstance
+                      Id="192f8923-5f81-4a1c-8d59-457839fc3373"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8dcd88de-8db8-4400-a60f-a9f08d42db5e">
+                    <propertyInstance
+                      Id="6dab8f8c-8f4d-4c8c-a169-e70f40850357"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="086454de-cb44-4a5c-b1ed-6bbebeccb02b">
+                    <propertyInstance
+                      Id="c8f65208-99b8-4a7c-85a4-566937eef22e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="53f58578-612e-4c35-85bd-d94b0fe53515">
+                    <propertyInstance
+                      Id="fd606087-596b-4ea1-8650-9222951e59db"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7098de88-ac68-4fc9-8262-12dec8f91976"
+                  name="inOpen"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="63e3be29-8eae-4038-8486-6e8d8f1ca826"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIControllerGarageOpen Member%3D(Name%3DSetOpen OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3DinOpen"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="ModelingProjectGarageModel.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="5b00d4fc-9fd2-4c8c-883f-a5aaf7dd0044"
+            name="IncreaseUsed"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="72dc2919-eb74-4dc7-8c18-2192c19e8d50"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIControllerGarageOpen Member%3D(Name%3DIncreaseUsed OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c5bd7a66-00fc-4f26-86ee-ea3e66f76dd4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1db10b8d-1d68-42d7-b5f7-dd1b3c3e80e3">
+                    <propertyInstance
+                      Id="98bd617b-4631-4e83-854f-55f57a28feeb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d0ff95eb-6209-40ee-8eb7-20caff91fe55">
+                    <propertyInstance
+                      Id="fdc2960e-e5d1-4852-9f72-3a82a01d4e8f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bfdd2ca9-7903-40c8-8ce0-bec65c7cf2f5">
+                    <propertyInstance
+                      Id="de5e3726-8df8-432a-a25e-f339f48cec19"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d8f8c335-938e-4b16-b0e7-bcf4d5f361d5">
+                    <propertyInstance
+                      Id="39bcd56c-841e-4767-b3a7-e6397ed1e443"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="415223d8-af09-4fd7-932e-02ddf3dbe66b">
+                    <propertyInstance
+                      Id="a574d6a7-598e-4b38-9b37-9e3a6abc35a6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b7e59fa3-b2c4-436b-ab86-8df9990497a0">
+                    <propertyInstance
+                      Id="3214e21a-5d7d-4c93-86da-39f532692bb7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="be7a254e-4373-4b37-9fa5-b93738433958"
+                  name="inVehicle"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="7e1a91b2-e7d4-42da-a3db-c2b63d341410"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIControllerGarageOpen Member%3D(Name%3DIncreaseUsed OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DinVehicle"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectGarageModel.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="9b829589-c95a-45b1-a258-85bb49fd7dda"
+            name="DecreaseUsed"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="604f70a6-0e57-4823-82a8-ad4b4c8ac669"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIControllerGarageOpen Member%3D(Name%3DDecreaseUsed OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7af9131c-342b-4df5-8221-bd5757ce0138"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ab9afcd-ee98-40bf-bf6b-8cfb8fcdc678">
+                    <propertyInstance
+                      Id="d2514a73-4e91-486f-8e26-afcfb64e8bd1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5e6cd568-97dc-4dd5-8175-ffe675d6e823">
+                    <propertyInstance
+                      Id="e37eb2d5-fccc-4541-abd2-1bf59195fd8b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb586ba4-ce2d-4bbb-a25c-fead3d5a3fda">
+                    <propertyInstance
+                      Id="4a4cb7d1-24bf-42cd-a46c-877d9faa5b38"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce813006-d318-4f00-a1f9-ace983e4ef86">
+                    <propertyInstance
+                      Id="39f25084-4868-480d-bf6f-01b5d96ae093"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="61a9938b-36f2-4e3a-a89c-48d02bc75216">
+                    <propertyInstance
+                      Id="138f20c1-e393-4c8a-8fa5-967058dc420d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fccae668-959f-4614-9e77-82a5e6c9b661">
+                    <propertyInstance
+                      Id="05b1ab0e-a405-4382-924d-7f9b64f1f5a9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f2aa8094-20b3-4c2d-a7d2-8e8e914d918a"
+                  name="inVehicle"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="79cced91-5c1a-436c-a46c-2f88338f36aa"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIControllerGarageOpen Member%3D(Name%3DDecreaseUsed OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DinVehicle"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectGarageModel.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="a64484eb-5534-4f21-b2ca-f9c699da9078"
+            name="UpdateGarage"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0b692f6d-f7ee-41f4-ad16-b68b2ab392b1"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIControllerGarageOpen Member%3D(Name%3DUpdateGarage OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5401e97a-cc96-440e-b89c-7051969a3048"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d5a37cbf-4ef0-48bb-b41b-22adb331d1ac">
+                    <propertyInstance
+                      Id="776640a0-8809-490a-91b9-fead9b127cf8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="33e09de7-b9c4-42aa-bdff-6f585eac0a1b">
+                    <propertyInstance
+                      Id="c9ed3d1e-b8aa-4dc7-b980-e605fe3636b1"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c517adab-9fa0-4de0-a00d-d67e30538e6b">
+                    <propertyInstance
+                      Id="06076569-95ac-41fb-9101-21abdf600794"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="64622fa4-4eaf-41ae-9e48-676ca3a1aca2">
+                    <propertyInstance
+                      Id="35397e9e-6457-430b-974d-e3167b14fb94"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4d121bc-e9a0-4d81-a2ac-10ba1c34bf1f">
+                    <propertyInstance
+                      Id="b18d348c-e545-4a9a-b3cd-be9f999eef16"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2b954702-d2ac-44f8-8ab7-a221c54a901c">
+                    <propertyInstance
+                      Id="9e03745a-87a1-4061-a3a1-1979372d0dd3"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0c325f8a-ae69-4a49-b973-7817a034309d"
+                  name="inName"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d559ffa0-bc5e-4b0b-b46c-591d1bbd6a91"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIControllerGarageOpen Member%3D(Name%3DUpdateGarage OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)]))]) ParameterIdentifier%3DinName"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectGarageModel.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c594694c-2fe1-4b32-93d4-f61361c4c101"
+                  name="values"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="78d9b570-f35c-4b64-88be-13e86ecca8d8"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIControllerGarageOpen Member%3D(Name%3DUpdateGarage OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)]))]) ParameterIdentifier%3Dvalues"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="8ef6e985-7dfc-4a0f-b186-240e87435050"
+                      LastKnownName="List&lt;Int32‎&gt;"
+                      LastKnownLocation="Package3_1052.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="9661b6d6-4d72-4d70-a664-d67c1e1f950c"
+            name="AddLoan"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f0b7c17f-560d-4c4a-8675-45131bd13a4b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIControllerGarageOpen Member%3D(Name%3DAddLoan OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DDateTime)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="67a7bf76-6189-446c-b2df-15d1bb82080d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="512d0ae8-7416-4c50-9aad-193e597e6a71">
+                    <propertyInstance
+                      Id="7ea8c4d1-34da-46d0-9adc-df47b24cec30"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac1362c3-938d-46fd-95b9-e5359d29f11c">
+                    <propertyInstance
+                      Id="7aa58430-32b4-4d99-95e4-bcea07db8933"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d321741d-a133-41d9-98f7-fc6b79e4664a">
+                    <propertyInstance
+                      Id="f6cf3f95-7801-481a-abd6-d608b4ab88ff"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a7429ab2-6f60-45d0-a2ec-5ffbaac38aa9">
+                    <propertyInstance
+                      Id="93f86a34-76b1-4f26-8702-f06e9be4958d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="61e555fe-cac1-42f1-9053-727051fe1ee5">
+                    <propertyInstance
+                      Id="3e8a8983-38ef-4ca4-953f-76b335375422"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2966b47c-f000-4da3-9f99-f404dbc8b37f">
+                    <propertyInstance
+                      Id="608a0348-03a3-4238-975d-560c0f3e8c95"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4a4ab46c-9c81-4486-9c11-e8231d1e1f29"
+                  name="vehicleType"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="66899887-0593-4b69-89f3-01bc5811f286"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIControllerGarageOpen Member%3D(Name%3DAddLoan OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DDateTime)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DvehicleType"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectGarageModel.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7d4bc953-d490-46e7-905c-ec3471577662"
+                  name="inTimeStamp"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f62d1b7e-fcde-42e4-9937-40fa0e0860cd"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIControllerGarageOpen Member%3D(Name%3DAddLoan OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DDateTime)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DinTimeStamp"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="71901907-28c3-414e-8750-0dcfba3baef9"
+                      LastKnownName="DateTime"
+                      LastKnownLocation="Package1_1052.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="034a7aa6-7681-45dc-be4b-ff7b583e78ce"
+                  name="customerName"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="337ea9db-18c6-425e-81da-2f2daf985757"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIControllerGarageOpen Member%3D(Name%3DAddLoan OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DDateTime)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DcustomerName"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectGarageModel.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="fde78c29-8aa0-41a8-b682-e4b1088d651e"
+                  name="customerIDCardNo"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="70ee5053-d808-415a-8b97-92741328a351"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIControllerGarageOpen Member%3D(Name%3DAddLoan OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DDateTime)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DcustomerIDCardNo"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectGarageModel.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d89e5924-7820-41ad-816e-df5590b6d3f8"
+                  name="comments"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="dbe3402e-292b-4036-85b8-3ac94c0cc416"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIControllerGarageOpen Member%3D(Name%3DAddLoan OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DDateTime)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dcomments"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectGarageModel.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="4fb256d3-9dc9-4452-b8a5-869d7e675bf8"
+            name="RemoveLoan"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="333eca25-c08c-4724-b6e8-df7c51e47c9e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIControllerGarageOpen Member%3D(Name%3DRemoveLoan OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f148567b-1290-4fb8-b36f-405c53d89f24"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d9baf918-bc8a-41d5-b37b-cf9ce95a8231">
+                    <propertyInstance
+                      Id="cbee85bd-35d0-4e56-a0c5-e8f6caa5126d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a1287a1-970f-43a0-8ac1-967fb7bf8eaf">
+                    <propertyInstance
+                      Id="b7b30fa4-c701-438f-93da-ce85ebbb124a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4ecb96a3-11ed-403c-bad9-7a4feb3d5364">
+                    <propertyInstance
+                      Id="0d477e36-7432-43d1-8b4a-3b8fbd134c0a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="41a53105-7095-427c-b377-9175ba04e11b">
+                    <propertyInstance
+                      Id="d8606031-a8c5-457f-a5ee-f3a0fe52fc58"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="562e5c63-4589-47ed-9334-10ca5634f656">
+                    <propertyInstance
+                      Id="ad83bd7f-55ef-4eeb-9470-e52e23aaec36"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="13b3c0d6-1cf4-462a-9325-38fda2513f75">
+                    <propertyInstance
+                      Id="7ccbe0ff-40e3-44f3-a25f-75aa8a018733"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ad44b850-8378-4fe0-9ae7-1d1d36720f4c"
+                  name="inIndex"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="530fad3e-815a-4fdd-aa11-64a23182dd4d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIControllerGarageOpen Member%3D(Name%3DRemoveLoan OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DinIndex"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProjectGarageModel.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="b2795951-8d46-4cb4-8807-6f1627ef30c8"
+        name="IObserver"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="136fd2f9-f279-4601-b031-fdc7d3808a5a"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIObserver"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a167b19c-1344-4fc6-a686-e6509cdd980f"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bec16b27-d3d9-4031-8bc3-f3e60609decb">
+                <propertyInstance
+                  Id="7081b760-f180-4e52-bedf-244c7aa1f673"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="41c4e0f7-25f1-4808-81ad-2cfdfca8d415">
+                <propertyInstance
+                  Id="1bdd9f19-9315-4daf-9b4c-7d7f724d4f1d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="077b40a5-b360-4c5e-90a7-53c284defcef">
+                <propertyInstance
+                  Id="82c37d48-aabb-49c7-941d-488d5b81092b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="934bd62e-ed40-41cd-aa36-c27d20e3ea89">
+                <propertyInstance
+                  Id="b37de5ba-8cc1-4917-93bc-e332c6c6ca45"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="05f580e0-da21-4d52-bd62-8aa3dba4032c"
+            name="UpdateView"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="50abd06c-fafc-4b0b-b904-255ca702b253"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FF:%2FPrograms%2FOO%2FGarageApp%2FgarageUtility%2Fbin%2FDebug%2FgarageUtility.dll Namespace%3DgarageUtility Type%3DIObserver Member%3DUpdateView"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7ff85a6b-d885-43af-a030-c64e41992db5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4e28f7e8-2a52-4f41-beab-46d3b0cca6b3">
+                    <propertyInstance
+                      Id="194b2a69-8964-4437-9a51-54e89e1e4f94"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="93fb780b-3a4a-4823-ba92-453505b5d150">
+                    <propertyInstance
+                      Id="0d0fd8fe-70cd-4dbe-bfd7-63194e5148f8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c31345e2-136f-42b9-8b29-2159fcb9d34d">
+                    <propertyInstance
+                      Id="2ccff53e-46a8-4f42-b33b-be6ec8ce9341"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1cf23175-7ab1-44d3-90ea-cf566bc7cc43">
+                    <propertyInstance
+                      Id="c89b2a81-e4b9-4384-87b8-bad16617d0f0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="98ef7e54-c0be-4a97-b6d1-84ed5a88061e">
+                    <propertyInstance
+                      Id="694341b9-bc17-47c8-b7da-9206f753df4a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6c414adc-43ae-494e-9b82-f4a7e82ac550">
+                    <propertyInstance
+                      Id="31c05bdf-8acd-435e-9ba8-7126d6ce2fda"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

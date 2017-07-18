@@ -1,0 +1,11 @@
+F:\Programs\OO\GarageApp\garageController\bin\Debug\garageController.dll
+F:\Programs\OO\GarageApp\garageController\bin\Debug\garageController.pdb
+F:\Programs\OO\GarageApp\garageController\bin\Debug\garageModel.dll
+F:\Programs\OO\GarageApp\garageController\bin\Debug\garageModel.pdb
+F:\Programs\OO\GarageApp\garageController\obj\Debug\garageController.csprojResolveAssemblyReference.cache
+F:\Programs\OO\GarageApp\garageController\obj\Debug\garageController.dll
+F:\Programs\OO\GarageApp\garageController\obj\Debug\garageController.pdb
+F:\Programs\OO\GarageApp\garageController\bin\Debug\garageWF.pdb
+F:\Programs\OO\GarageApp\garageController\bin\Debug\garageWF.dll
+F:\Programs\OO\GarageApp\garageController\bin\Debug\GarageUtility.dll
+F:\Programs\OO\GarageApp\garageController\bin\Debug\GarageUtility.pdb
